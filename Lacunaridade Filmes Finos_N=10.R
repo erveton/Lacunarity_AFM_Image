@@ -52,7 +52,7 @@ print(Pns)
 
 #Passo 9: calcular o primeiro e o segundo momento do s.
 
-s<-c(0:100)
+s<-unique(sort(vnum0))
 
 M1<-(s)*Pns
 
